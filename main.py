@@ -42,7 +42,7 @@ import database
 from config import ADMIN_IDS
 
 # Define admin IDs
-ADMIN_IDS = [7793257011]  # Add your admin IDs here
+ADMIN_IDS = [8050673236]  # Add your admin IDs here
 
 # Helper function to decrypt files
 def decrypt_file_txt(file_path: str) -> str:
