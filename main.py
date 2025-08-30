@@ -78,11 +78,11 @@ async def show_random_emojis(message):
     return emoji_message
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="👨‍💻 Owner", url="https://t.me/mrfrontman001")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="👨‍💻 Owner", url="tg://openmessage?user_id=8050673236")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="⌯ Chouhan×͜× |", url="tg://openmessage?user_id=8050673236"),
+            InlineKeyboardButton(text="⌯mr.Chouhan×͜× |", url="tg://openmessage?user_id=8050673236"),
         ],
         [
             InlineKeyboardButton(text="🪔", callback_data="help_command"),
@@ -587,7 +587,7 @@ async def txt_handler(bot: Client, m: Message):
     "**┃ 🔻**  `480`  \n"
     "**┃ 🔻**  `720`  \n"
     "**┃ 🔻** `1080`  \n"
-    "**╰━━━⌈ 🤖 By 🂾 ⌯ chouhan ⌋━━━╯**"
+    "**╰━━━⌈ 🤖 By 🂾 ⌯mr.chouhan ⌋━━━╯**"
 )
 
     input2: Message = await bot.listen(editable.chat.id)
@@ -622,7 +622,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[ ⌯ FʀᴏɴᴛMᴀɴ | ×͜× |](https://t.me/Mrfrontman001)'
+        CR = '[ ⌯ mr.chouhan| ×͜× |](tg://openmessage?user_id=8050673236)'
     else:
         CR = raw_text3
 
@@ -924,7 +924,7 @@ async def txt_handler(bot: Client, m: Message):
                            f"┃ 🖇️ **ᴀᴘɪ ᴜʀʟ**: <a href='{url}'>ᴀᴘɪ ʟɪɴᴋ</a>\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑 **sᴇɴᴅ** /stop **ᴛᴏ ᴄᴀɴᴄᴇʟ**\n\n" \
-                           f"╰━━━━━ ✦ 𝐵𝑜𝓉 𝓂𝒶𝒹𝑒 𝒷𝓎tg://openmessage?user_id=8050673236 ✦ "
+                           f"╰━━━━━ ✦ 𝐵𝑜𝓉 𝓂𝒶𝒹𝑒 𝒷𝓎 mr.chouhan ✦ "
 
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     try:
@@ -970,7 +970,7 @@ async def txt_handler(bot: Client, m: Message):
                            f"┃ 🖇️ **ᴀᴘɪ ᴜʀʟ**: <a href='{url}'>ᴀᴘɪ ʟɪɴᴋ</a>\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑 **sᴇɴᴅ** /stop **ᴛᴏ ᴄᴀɴᴄᴇʟ**\n\n" \
-                           f"**╰━━━━━ ✦ 𝐵𝑜𝓉 𝓂𝒶𝒹𝑒 𝒷𝓎 tg://openmessage?user_id=8050673236✦ **"
+                           f"**╰━━━━━ ✦ 𝐵𝑜𝓉 𝓂𝒶𝒹𝑒 𝒷𝓎 mr.chouhan ✦ **"
 
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     try:
@@ -1016,7 +1016,7 @@ async def txt_handler(bot: Client, m: Message):
                            f"┃ 🖇️ **ᴀᴘɪ ᴜʀʟ**: <a href='{url}'>ᴀᴘɪ ʟɪɴᴋ</a>\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑 **sᴇɴᴅ** /stop **ᴛᴏ ᴄᴀɴᴄᴇʟ**\n\n" \
-                           f"╰━━━━━ ✦ 𝐵𝑜𝓉 𝓂𝒶𝒹𝑒 𝒷𝓎 tg://openmessage?user_id=8050673236✦"
+                           f"╰━━━━━ ✦ 𝐵𝑜𝓉 𝓂𝒶𝒹𝑒 𝒷𝓎 tg://mr.chouhan✦"
                     
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     try:
@@ -1244,7 +1244,7 @@ async def add_chat_cmd(bot: Client, message: Message):
                 "╰━━━━━━━━━━━━━━━━━╯\n\n"
                 "╭─────────────────\n"
                 "┣⪼ 📌 𝐏𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n"
-                "┣⪼ 👤 @Dhruv10081\n"
+                "┣⪼ 👤 mr.chouhan\n"
                 "┣⪼ 💫 𝐅𝐨𝐫 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n"
                 "╰─────────────────"
             )
