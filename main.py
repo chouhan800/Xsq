@@ -622,7 +622,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[ ⌯ mr.chouhan| ×͜× |](tg://openmessage?user_id=8050673236)'
+        CR = '[ ⌯ ꧁༒☬🦋✨⚔️MR.𝐂𝐡𝐨𝐮𝐡𝐚𝐧⚔️✨🦋☬༒꧂ |](tg://openmessage?user_id=8050673236)'
     else:
         CR = raw_text3
 
@@ -1016,7 +1016,7 @@ async def txt_handler(bot: Client, m: Message):
                            f"┃ 🖇️ **ᴀᴘɪ ᴜʀʟ**: <a href='{url}'>ᴀᴘɪ ʟɪɴᴋ</a>\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑 **sᴇɴᴅ** /stop **ᴛᴏ ᴄᴀɴᴄᴇʟ**\n\n" \
-                           f"╰━━━━━ ✦ 𝐵𝑜𝓉 𝓂𝒶𝒹𝑒 𝒷𝓎 tg://mr.chouhan✦"
+                           f"╰━━━━━ ✦ 𝐵𝑜𝓉 𝓂𝒶𝒹𝑒 𝒷𝓎 mr.chouhan✦"
                     
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     try:
